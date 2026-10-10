@@ -1,24 +1,13 @@
-# Gas Plant Network — Presentation
+# Gas Plant Network Presentation
 
-برزنتيشن تفاعلي من 19 شريحة، مع الصور والحركات وملاحظات المتحدث بالعربية.
+20 concise interactive slides. Static HTML/CSS/JavaScript; no build required.
 
-## التشغيل
-افتح `index.html` في المتصفح. لا يحتاج تثبيت حزم أو عملية بناء.
+## Update GitHub
+Upload index.html, app.js, style.css and README.md into the existing repository root. Keep the assets folder and .nojekyll. Commit to main and wait for Pages deployment.
 
-## النشر على GitHub Pages
-1. أنشئ مستودعًا وارفع محتويات هذا المجلد إليه، بحيث يكون `index.html` مباشرة في جذر المستودع.
-2. افتح Settings → Pages.
-3. اختر Deploy from a branch، ثم فرع main والمجلد /(root)، واضغط Save.
-4. انتظر اكتمال النشر وافتح الرابط الذي يظهر في صفحة Pages.
+Speaker notes and report downloads are removed. If old report files exist in the GitHub assets folder, delete them there too.
 
-## الملفات
-- `index.html`: صفحة العرض.
-- `style.css`: التصميم والحركات.
-- `app.js`: محتوى الشرائح والتفاعل وملاحظات المتحدث.
-- `assets/`: صور الأدلة وملف Packet Tracer.
+## Academic coverage
+Includes objectives, development method and alternative, implementation tools and their trade-offs, database applicability, architecture, security, test strategy and evidence, challenges, limitations, future work and lessons learned.
 
-لتعديل النصوص افتح `app.js`، ولتعديل الألوان والتصميم افتح `style.css`.
-
-الديمو التفاعلي توضيحي داخل المتصفح. ملف الشبكة الفعلي موجود في assets/Gas-Plant-Final.pkt ويفتح باستخدام Packet Tracer.
-
-[دليل GitHub Pages الرسمي](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+Browser scenarios illustrate behaviour. Demonstrate the actual network in Packet Tracer. Response-time measurements and industrial certification are not claimed. Presentation timing and oral assessment require rehearsal and live demonstration.
