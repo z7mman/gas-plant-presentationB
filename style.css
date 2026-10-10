@@ -5,3 +5,8 @@
 @media(max-width:460px){.three,.four{grid-template-columns:1fr}.hero h1{font-size:50px}.hero .authors{flex-direction:column;gap:12px}.brand-sub{letter-spacing:1px}.feature .num{margin-bottom:15px}.challenge{grid-template-columns:1fr;gap:10px}.signal-bars b{font-size:13px}.heading h2{font-size:34px}.panel-heading h2{font-size:25px}#slideGrid button{padding:14px}.data-table th:last-child,.data-table td:last-child{display:none}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}#ambient{display:none}}
 @media print{body{overflow:visible;background:white;color:black}header,footer,#ambient,#notes,dialog{display:none}#stage{height:auto;overflow:visible;padding:20px}.slide{min-height:0}.heading h2 em,h1 em,.mint{color:#176447}.lead,.dim,.caption{color:#333}}
+/* Hide speaker notes */
+#notesBtn,
+#notes {
+  display: none !important;
+}
